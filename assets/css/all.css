@@ -1,0 +1,151 @@
+.background {
+    background: #FEFEEB repeat;
+}
+
+.bg-header {
+    background: #F6F5AE repeat;
+}
+
+.header {
+    font-size: 3rem;
+    font-family: Dokdo;
+}
+
+.nav-link-item {
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.badge-title {
+    padding: 20px;
+    background-color: #E6E6FA;
+    font-size: 1.25rem;
+}
+
+
+
+.footer-text {
+    font-family: Dokdo;
+    font-size: 1.4rem;
+    padding: 3% 5%;
+}
+
+.footer-img {
+    font-size: 1.5rem;
+    font-family: Dokdo;
+}
+
+.footer-img img {
+    width: 50px;
+    height: 50px;
+}
+/*index*/
+.carousel-item-index-img{
+    max-height: 550px;
+    border-radius: 1%;
+}
+/*activity*/
+.card-item {
+    font-family: Love Ya Like A Sister;
+    font-weight: bolder;
+    font-size: 28px;
+    background-color: #D88D77;
+}
+
+.card-item-intro {
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1s ease;
+}
+
+.inner:hover img {
+    transform: scale(0.9);
+}
+
+.card {
+    transition: all 1s ease;
+}
+
+.card:hover {
+    transform: scale(0.9);
+}
+/*activity1*/
+.carousel-item-img{
+    max-height: 500px;
+}
+.club-logo{
+    max-height: 150px;
+    max-width: 150px;
+}
+.activity-text{
+    font-weight: 800;
+}
+/*Aboutus*/
+
+.Aboutus-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+
+/*Food*/
+.bg-food{
+    background:#F0F8FF; 
+    border-radius: 1%; 
+    padding: 5% 8% ;
+}
+.food-title{
+    font-weight: 900;
+}
+.rec-img{
+    max-height: 200px;
+    transition: all 1.5s ease;
+}
+.rec-img:hover{
+    transform:scale(1.2);
+}
+.rec-line-h{
+    line-height: 2;
+}
+/*video*/
+.videoText {
+    font-weight: bolder;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 30px;
+}
+/*apply*/
+.form-background{
+    border-radius: 1%; 
+    padding: 5% 8% ;
+	background-color: #dce8a4;
+}
+.form-title{
+    font-size:2.5rem;
+    font-family: Pacifico;
+}
+@media (min-width: 576px) {
+    .footer-img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer-img {
+        font-size: 3rem;
+        font-family: Dokdo;
+    }
+
+    .act-img {
+        max-width: 250px;
+    }
+}
